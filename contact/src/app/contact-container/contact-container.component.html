@@ -1,0 +1,9 @@
+<div *ngIf="con; then ifBlock" ></div>
+<ng-template #ifBlock>
+<div style="background-color:rgb(202, 249, 233);float:right;margin-top: -350px;">
+    <p>First Name: {{con.firstName}}</p>
+    <p>Last Name: {{con.lastName}}</p>
+    <p>Email: {{con.email}}</p>
+    <p>Contact: {{con.contactNo}}</p>
+</div>
+</ng-template>

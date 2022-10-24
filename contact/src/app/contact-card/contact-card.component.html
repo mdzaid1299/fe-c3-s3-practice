@@ -1,0 +1,11 @@
+<div class="container">
+    <div class="row">
+        <div class=" col-lg-4 mt-5 car" *ngFor="let contact of contacts" (mouseover)="displayCard(contact)" (mouseout)="displayOut(contact)" >
+            <span id="char">{{contact?.firstName?.charAt(0)}}</span>
+            <span><b>{{contact?.firstName}}.{{contact?.lastName}}</b></span>
+            <br>
+            <span>{{contact?.email}}</span><br>
+            <span>{{contact?.contactNo}}</span>
+        </div>
+    </div>
+</div>

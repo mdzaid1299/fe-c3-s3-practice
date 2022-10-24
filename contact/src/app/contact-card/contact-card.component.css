@@ -1,0 +1,10 @@
+.car{
+    margin-left: -50px;
+}
+#char{
+    font-size: 30px;
+    background-color: aqua;
+    border-radius: 30%;
+    margin: 10px;
+    
+}

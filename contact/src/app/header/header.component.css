@@ -1,0 +1,16 @@
+span{
+  
+    margin-left: 20px;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+div{
+background-color: aquamarine;
+padding: 20px;
+}
+app-search{
+margin-left: 400px;
+font-size: x-large;
+}
